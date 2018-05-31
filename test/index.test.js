@@ -7,6 +7,9 @@ describe('index.js的测试', function () {
   before (function () {
     console.log('start test')
   })
+  it('djlxs是字符串', function() {
+    typeCheck('djlxs').should.equal('string')
+  })
   it('1应该是数字', function() {
     typeCheck(1).should.equal('number')
   })
