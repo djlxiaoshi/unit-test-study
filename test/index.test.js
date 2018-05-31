@@ -13,6 +13,9 @@ describe('index.js的测试', function () {
   it('1应该是数字', function() {
     typeCheck(1).should.equal('number')
   })
+  it('2应该是数字', function() {
+    typeCheck(2).should.equal('number')
+  })
   it('"1" 应该是字符', function() {
     isString('1').should.equal(true)
   })
